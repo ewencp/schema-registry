@@ -15,6 +15,8 @@
  */
 package io.confluent.kafka.schemaregistry.client.rest;
 
+import com.google.common.collect.ImmutableMap;
+
 import static junit.framework.TestCase.assertEquals;
 import static org.easymock.EasyMock.anyInt;
 import static org.easymock.EasyMock.anyObject;
@@ -35,7 +37,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
-import avro.shaded.com.google.common.collect.ImmutableMap;
 import io.confluent.kafka.schemaregistry.client.security.bearerauth.BearerAuthCredentialProvider;
 import org.easymock.EasyMock;
 import org.easymock.IArgumentMatcher;

@@ -16,7 +16,8 @@
 
 package io.confluent.connect.avro;
 
-import avro.shaded.com.google.common.collect.ImmutableMap;
+import com.google.common.collect.ImmutableMap;
+
 import io.confluent.kafka.schemaregistry.client.rest.exceptions.RestClientException;
 import io.confluent.kafka.serializers.subject.RecordNameStrategy;
 import org.apache.kafka.connect.data.Schema;

@@ -16,6 +16,8 @@
 
 package io.confluent.connect.avro;
 
+import com.google.common.collect.ImmutableMap;
+
 import com.connect.avro.EnumUnion;
 import com.connect.avro.UserType;
 
@@ -62,7 +64,6 @@ import java.util.Set;
 import java.util.TimeZone;
 import java.util.stream.Collectors;
 
-import avro.shaded.com.google.common.collect.ImmutableMap;
 import foo.bar.EnumTest;
 import foo.bar.Kind;
 import io.confluent.kafka.serializers.NonRecordContainer;

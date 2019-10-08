@@ -1,12 +1,13 @@
 package io.confluent.kafka.serializers;
 
+import com.google.common.collect.ImmutableMap;
+
 import static java.util.Collections.singletonMap;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.sameInstance;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;
 
-import avro.shaded.com.google.common.collect.ImmutableMap;
 import io.confluent.common.config.ConfigException;
 import io.confluent.kafka.schemaregistry.client.MockSchemaRegistryClient;
 import io.confluent.kafka.schemaregistry.client.SchemaRegistryClient;
